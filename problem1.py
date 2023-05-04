@@ -14,12 +14,12 @@ Delivery Charges : Rs. 250.00
 
 
                 #code
-try:
+try:                                 
     book1_nos = int(input("Enter the number of books of book1 type : "))
     book2_nos = int(input("Enter the number of books of book2 type : "))
     book3_nos = int(input("Enter the number of books of book3 type : "))
 except ValueError as err:
-    print(err)
+    print("PLEASE, ENTER ONLY INTEGERS")
 cost_of_book1 = 499.00
 cost_of_book2 = 855.00
 cost_of_book3 = 645.00
